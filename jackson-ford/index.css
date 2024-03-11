@@ -1,0 +1,323 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+:root {
+    --aside-bg: rgb(242,243,247);
+    --text-color: rgb(101,101,103);
+}
+.red {
+    background-color: rgb(236,84,83) !important;
+}
+.orange {
+    background-color: rgb(249,191,63) !important;
+}
+.purple {
+    background-color: rgb(168,76,184) !important;
+}
+.green {
+    background-color: rgb(47,164,153) !important;
+}
+
+aside {
+    background-color: var(--aside-bg);
+    color: var(--text-color);
+    position: fixed;
+    height: 100%;
+    width: 17.2% !important;
+}
+aside .display-picture {
+    height: 140px;
+    width: 130px;
+}
+aside {
+    font-family: "Playfair Display", serif;
+}
+aside p {
+    font-size: 12px;
+}
+.portfolio-links li {
+    border: none;
+    background-color: var(--aside-bg);
+}
+#banner1 {
+    background-image: url('https://preview.colorlib.com/theme/jackson/images/img_bg_1.jpg.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#banner1 h1 {
+    font-size: 70px;
+    color: #000;
+}
+#about-us {
+    padding: 8rem 20px 2rem 20px;
+}
+.technology {
+    padding: 35px 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0px;
+    border-bottom: 3px solid #000;
+}
+.technology i{
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+#graphic-design {
+    border-color: rgb(44,152,240);
+}
+#graphic-design i {
+    color: rgb(44,152,240);
+}
+#web-design {
+    border-color: rgb(255,0,3);
+}
+#web-design i{
+    color: rgb(255,0,3);
+}
+#software {
+    border-color: rgb(250,200,95);
+}
+#software i{
+    color: rgb(250,200,95);
+}
+#application {
+    border-color: rgb(168,76,184);
+}
+#application i{
+    color: rgb(168,76,184);
+}
+#hire-me-container {
+    background-color: rgb(249,191,63);
+    margin: 70px 0px;
+    padding: 30px;
+}
+#what-i-do {
+    padding: 0rem 20px;
+}
+.expertise {
+    margin: 2px;
+    text-align: center;
+}
+.expertise h3 {
+    font-size: 16px;
+}
+.expertise-type {
+    padding: 30px;
+    margin: 20px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom: 4px solid #000;
+}
+.expertise p {
+    line-height: 25px;
+}
+.icon {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    width: 120px;
+    height: 100px;
+}
+.icon i {
+    font-size: 33px;
+    /* margin: auto; */
+    color: #fff;
+    display: inline-block;
+    margin: auto;
+}
+#innovative-ideas {
+    border-color: rgb(44,152,240);
+}
+.expertise #software {
+    border-color: rgb(236,84,83);
+}
+.expertise #application {
+    border-color: rgb(249,191,63);
+}
+.expertise #graphic-design {
+    border-color: rgb(168,76,184);
+}
+.expertise #software2 {
+    border-color: rgb(47,164,153);
+}
+.expertise #application2 {
+    border-color: rgb(65,84,178);
+}
+
+.expertise-type span {
+    display: flex;
+    margin-top: -78px;
+    margin-bottom: 30px;
+    margin-left: 52px;
+    color: #fff;
+}
+#innovative-ideas span {
+    background-color: rgb(44,152,240);;
+}
+
+#software span {
+    background-color: rgb(236,84,83);
+}
+#application span{
+    background-color: rgb(249,191,63);
+}
+#graphic-design span{
+    background-color: rgb(168,76,184);
+}
+#software2 span {
+    background-color: rgb(47,164,153);
+}
+#application2 span {
+    background-color: rgb(65,84,178);
+}
+
+#software i, #application i, #graphic-design i {
+    color: #fff;
+}
+
+#progress-status {
+    background-image: url('https://preview.colorlib.com/theme/jackson/images/cover_bg_1.jpg.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    position: relative;
+    padding: 8rem;
+    color: #fff;
+    margin: 8rem 18px;
+}
+#overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+#overlay > .row {
+    margin-top: 5.5rem;
+}
+
+#my-skills {
+    margin: 10rem 18px 10rem 18px;
+}
+
+#innovative-ideas {
+    background-color: rgb(44,152,240);;
+}
+
+#photoshop {
+    background-color: rgb(236,84,83);
+}
+#html5{
+    background-color: rgb(249,191,63);
+}
+#wordpress{
+    background-color: rgb(168,76,184);
+}
+#jquery {
+    background-color: rgb(47,164,153);
+}
+#css3 {
+    background-color: rgb(65,84,178);
+}
+
+#education {
+    margin: 9rem 18px;
+}
+a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3px;
+}
+a:hover {
+    border-bottom: 2px solid rgb(44,152,240);
+}
+#work {
+    padding: 30px 18px 8rem 18px;
+}
+#work img {
+    height: 350px;
+    width: 100%;
+    padding: 10px 0px;
+}
+.load-more {
+    width: 100%;
+    border-radius: 0px;
+    margin: 15px 0px;
+}
+#blog {
+    padding: 5rem 18px;
+}
+.fa-microphone, .fa-map, .fa-phone {
+    font-size: 28px;
+    color: rgb(103,176,242);
+}
+#contact {
+    padding: 5rem 18px;
+}
+#contact input, #contact textarea {
+    border-radius: 0px;
+    background-color: rgb(242,243,247);
+    border: none;
+    padding: 10px 15px;
+}
+.send-message {
+    border-radius: 0px;
+}
+.type-experience i {
+    background-color: rgb(44, 152, 240);
+    color: #fff;
+    font-size: 18px;
+    padding: 9px;
+    border-radius: 50%;
+    border: 5px solid rgb(245, 245, 249);
+}
+.type-experience-icon {
+    width: 6%;
+    z-index: 1;
+}
+.type-experience-content {
+    background-color: rgb(242,243,247);
+    color: black;
+    width: 70%;
+    position: relative;
+}
+.type-experience-content::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 9px 9px 0;
+    border-color: transparent #f2f3f7 transparent transparent;
+    left: 0;
+    top: 12px;
+    margin-left: -9px;
+}
+
+.experience-types {
+    position: relative;
+}
+.experience-types::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 4px;
+    background: #f2f3f7;
+    top: 20px;
+    bottom: 50px;
+    margin-left: 32px;
+}
+.empty-icon {
+    
+    color: #fff;
+    padding: 14px;
+    border-radius: 50%;
+    border: 5px solid rgb(245, 245, 249);
+    width: 4.2%;
+    margin-left: 2px;
+}
